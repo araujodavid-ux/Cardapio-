@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class No {
     String nome;
-    Double preco; // null = categoria
-    ArrayList<No> filhos; // usando apenas ArrayList
+    Double preco; 
+    ArrayList<No> filhos; 
 
     public No(String nome) {
         this.nome = nome;
@@ -27,5 +27,6 @@ public class No {
         return preco == null;
     }
 }
+
 
 
